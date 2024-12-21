@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DataItem" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://items/data_item.gd" id="1_ej3gy"]
+[ext_resource type="Texture2D" path="res://items/potion_icon.tres" id="1_x2q68"]
+
+[resource]
+resource_name = "potion"
+script = ExtResource("1_ej3gy")
+icon = ExtResource("1_x2q68")
+change_hp = 2
+hide_from_inventory = false

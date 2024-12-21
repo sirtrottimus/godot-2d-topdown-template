@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DataWeapon" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://items/weapons/data_weapon.gd" id="1_81vel"]
+[ext_resource type="Texture2D" path="res://items/weapons/sword_1_icon.tres" id="1_n305n"]
+
+[resource]
+resource_name = "sword"
+script = ExtResource("1_81vel")
+power = 1
+speed = 0.5
+icon = ExtResource("1_n305n")
+change_hp = 0

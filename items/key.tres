@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DataItem" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://items/data_item.gd" id="1_rb7uh"]
+[ext_resource type="Texture2D" path="res://items/key_icon.tres" id="1_ue3wi"]
+
+[resource]
+resource_name = "key"
+script = ExtResource("1_rb7uh")
+icon = ExtResource("1_ue3wi")
+change_hp = 0
+hide_from_inventory = false

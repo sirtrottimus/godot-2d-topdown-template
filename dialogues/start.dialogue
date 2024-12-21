@@ -1,0 +1,12 @@
+~ forest_citizen_talk
+
+Citizen: [[Hi|Hello|Howdy]], do you want a chest key?
+- Sure
+	Citizen: Here's your key.
+- No...
+	Citizen: No problem.
+- Can you repeat, please? => forest_citizen_talk
+- Go away => END
+Citizen: See you soon!
+
+=> END
